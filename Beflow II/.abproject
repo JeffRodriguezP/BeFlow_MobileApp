@@ -1,0 +1,37 @@
+{
+  "ProjectName": "Beflow II",
+  "ProjectGuid": "f149fc0e-4403-44e6-a4b6-6ffdadfc07a9",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.BeflowII",
+  "DisplayName": "Beflow II",
+  "Author": "",
+  "Description": "",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.5.0",
+  "AndroidPermissions": [],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{c5479080-9d65-4ba3-86ae-173088f67dfa}",
+  "WP8ProductID": "{361f9b31-42b1-41fd-8eea-936cebbb6be1}",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
