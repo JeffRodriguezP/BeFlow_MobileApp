@@ -4,8 +4,8 @@
   "projectVersion": 1,
   "AppIdentifier": "com.telerik.BeflowII",
   "DisplayName": "Beflow II",
-  "Author": "",
-  "Description": "",
+  "Author": "The Dxat 2014/15 Team",
+  "Description": "Beflow II",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
@@ -15,12 +15,14 @@
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
   "FrameworkVersion": "3.5.0",
-  "AndroidPermissions": [],
+  "AndroidPermissions": [
+    "android.permission.MANAGE_ACCOUNTS"
+  ],
   "DeviceOrientations": [
     "Portrait",
     "Landscape"
   ],
-  "AndroidHardwareAcceleration": "false",
+  "AndroidHardwareAcceleration": "True",
   "iOSStatusBarStyle": "Default",
   "Framework": "Cordova",
   "WP8TileTitle": "",

@@ -9,15 +9,18 @@
     window.APP = {
       models: {
         home: {
-          title: 'Home'
+          title: 'Beflow'
         },
         settings: {
-          title: 'Settings'
+          title: 'Nodes'
+        },
+          about: {
+          title: 'About BeFLow'
         },
         contacts: {
-          title: 'Contacts',
+          title: 'Companies',
           ds: new kendo.data.DataSource({
-            data: [{ id: 1, name: 'Bob' }, { id: 2, name: 'Mary' }, { id: 3, name: 'John' }]
+            data: [{ id: 1, name: 'Zara' }, { id: 2, name: 'Mango' }, { id: 3, name: 'UPC' }]
           }),
           alert: function(e) {
             alert(e.data.name);
