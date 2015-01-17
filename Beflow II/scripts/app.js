@@ -18,12 +18,17 @@
           title: 'About BeFLow'
         },
         contacts: {
-          title: 'Companies',
+          title: 'Clients',
           ds: new kendo.data.DataSource({
-            data: [{ id: 1, name: 'Zara' }, { id: 2, name: 'Mango' }, { id: 3, name: 'UPC' }]
-          }),
+            transport: {
+                read: {
+                    url: "http://147.83.113.109:8080/jersey-quickstart-webapp/beflow/myresource/getAllCompanies",
+                    dataType: "json"
+                }
+            }
+        }),
           alert: function(e) {
-            alert(e.data.name);
+            alert(e.data.company_name);
           }
         }
       }
