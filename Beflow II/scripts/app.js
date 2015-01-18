@@ -10,6 +10,9 @@
             home: {
                 title: 'Beflow'
             },
+            topology: {
+                 title: 'Topology',
+            },
             flows: {
                 title: 'Flows',
                 data_flows: new kendo.data.DataSource({

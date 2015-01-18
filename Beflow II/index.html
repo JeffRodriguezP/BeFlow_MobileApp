@@ -24,13 +24,21 @@
         <div data-role="footer">
             <div data-role="tabstrip">
                 <a href="views/home.html" data-icon="home">Home</a>
-                <a href="views/clients.html" data-icon="globe">Clients</a>
+                <a href="views/topology.html" data-icon="globe">Topology</a>
+                <a href="views/clients.html" data-icon="arrow-e">Clients</a>
                 <a href="views/Nodes.html" data-icon="share">Nodes</a>
-                <a href="views/flows.html" data-icon="share">Flows</a>
+                <a href="views/flows.html" data-icon="action">Flows</a>
                 <a href="views/About.html" data-icon="about">About BeFLow</a>
             </div>
         </div>
     </div>
+    <style>
+        .km-arrow-e:after,
+        .km-arrow-e:before {
+            content: "\e319";
+        }
+    </style>
+
 </body>
 
 </html>
