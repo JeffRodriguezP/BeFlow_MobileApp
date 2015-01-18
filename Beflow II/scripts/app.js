@@ -8,18 +8,26 @@
     window.APP = {
         models: {
             home: {
-                title: 'Beflow'
+                title: 'Beflow',
+                ds_home: new kendo.data.DataSource({
+                    transport: {
+                        read: {
+                            url: "http://147.83.113.109:8080/jersey-quickstart-webapp/beflow/myresource/getAllCompanies",
+                            dataType: "json"
+                        }
+                    }
+                })
             },
             flows: {
                 title: 'Flows',
-                 data_flows: new kendo.data.DataSource({
+                data_flows: new kendo.data.DataSource({
                     transport: {
                         read: {
                             url: "http://147.83.113.109:8080/jersey-quickstart-webapp/beflow/myresource/getFlows",
                             dataType: "json"
                         }
                     }
-                })
+                }),
             },
             nodes: {
                 title: 'Nodes'
