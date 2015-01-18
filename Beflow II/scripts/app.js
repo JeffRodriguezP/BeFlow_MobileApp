@@ -27,7 +27,7 @@
             },
             nodes: {
                 title: 'Nodes',
-                 data_flows: new kendo.data.DataSource({
+                 data_nodes: new kendo.data.DataSource({
                     transport: {
                         read: {
                             url: "http://147.83.113.109:8080/jersey-quickstart-webapp/beflow/myresource/getNodesController",
