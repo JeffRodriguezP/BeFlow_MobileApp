@@ -1,0 +1,23 @@
+<div data-role="view" data-title="Flows" data-layout="main" data-model="APP.models.flows">
+    <table data-style="inset" data-template="testeTemplate" data-collapsed: "false" data-bind="source: data_flows">
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Leader</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="4"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<!-- this is the template used by the listview. template items are automatically
+     wrapped in an <li> by Kendo UI Mobile -->
+<script type="text/x-kendo-template" id="testeTemplate">
+    <tr>
+        <td>#: data.flowConfig.name #</td>
+        <td>#: data.flowConfig.protocol #</td>
+    </tr>
+</script>
