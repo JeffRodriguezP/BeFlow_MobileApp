@@ -18,6 +18,10 @@
                             url: "http://147.83.113.109:8080/jersey-quickstart-webapp/beflow/myresource/getFlows",
                             dataType: "json"
                         }
+                    },
+                    schema: {
+                        // the data, which the data source will be bound to is in the "list" field of the response
+                        data: "flowConfig"
                     }
                 })
             },
