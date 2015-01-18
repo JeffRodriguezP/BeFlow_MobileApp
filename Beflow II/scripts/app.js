@@ -8,15 +8,7 @@
     window.APP = {
         models: {
             home: {
-                title: 'Beflow',
-                ds_home: new kendo.data.DataSource({
-                    transport: {
-                        read: {
-                            url: "http://147.83.113.109:8080/jersey-quickstart-webapp/beflow/myresource/getAllCompanies",
-                            dataType: "json"
-                        }
-                    }
-                })
+                title: 'Beflow'
             },
             flows: {
                 title: 'Flows',
@@ -27,7 +19,7 @@
                             dataType: "json"
                         }
                     }
-                }),
+                })
             },
             nodes: {
                 title: 'Nodes'
